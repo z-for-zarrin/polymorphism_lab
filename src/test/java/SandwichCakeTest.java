@@ -9,7 +9,8 @@ public class SandwichCakeTest {
 
     @BeforeEach
     public void setUp() {
-        sandwichCake = new SandwichCake("Victoria Sponge", "vanilla", 2);
+        sandwichCake = new SandwichCake("Victoria Sponge", "vanilla",
+                                        "strawberry jam", 2);
     }
 
     @Test
