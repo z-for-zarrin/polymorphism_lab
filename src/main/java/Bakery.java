@@ -12,4 +12,8 @@ public class Bakery {
         return this.cakes.size();
     }
 
+    public void addCake(Cake cake) {
+        this.cakes.add(cake);
+    }
+
 }
