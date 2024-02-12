@@ -1,4 +1,4 @@
-public class Cake {
+public abstract class Cake {
 
     private String name;
     private String baseFlavour;
