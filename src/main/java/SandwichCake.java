@@ -13,4 +13,8 @@ public class SandwichCake extends Cake {
         return this.layers;
     }
 
+    public void addLayers(int amount) {
+        this.layers += amount;
+    }
+
 }

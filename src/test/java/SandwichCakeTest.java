@@ -18,4 +18,10 @@ public class SandwichCakeTest {
         assertThat(sandwichCake.countLayers()).isEqualTo(2);
     }
 
+    @Test
+    public void canAddLayers() {
+        sandwichCake.addLayers(1);
+        assertThat(sandwichCake.countLayers()).isEqualTo(3);
+    }
+
 }
