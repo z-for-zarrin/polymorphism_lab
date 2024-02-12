@@ -1,7 +1,7 @@
 public class SandwichCake extends Cake {
 
-    String filling;
-    int layers;
+    private String filling;
+    private int layers;
 
     public SandwichCake(String name, String baseFlavour, String filling, int layers) {
         super(name, baseFlavour);
