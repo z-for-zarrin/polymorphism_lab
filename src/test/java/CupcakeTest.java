@@ -19,8 +19,13 @@ public class CupcakeTest {
     }
 
     @Test
-    public void canBake(){
+    public void canBake() {
         assertThat(cupcake.bake()).isEqualTo("Red velvet has finished baking!");
+    }
+
+    @Test
+    public void canDisplayBaseFlavour() {
+        assertThat(cupcake.displayBaseFlavour()).isEqualTo("Red velvet cupcakes are made with red velvet cake");
     }
 
 }

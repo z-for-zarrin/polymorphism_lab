@@ -17,4 +17,8 @@ public class Cupcake extends Cake{
         return this.toppings;
     }
 
+    public String displayBaseFlavour() {
+        return this.getName() + " cupcakes are made with " + this.getBaseFlavour() + " cake";
+    }
+
 }

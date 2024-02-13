@@ -16,4 +16,8 @@ public class SandwichCake extends Cake {
     public void addLayers(int amount) {
         this.layers += amount;
     }
+
+    public String displayBaseFlavour() {
+        return this.getName() + " cake is made with " + this.getBaseFlavour() + " cake";
+    }
 }

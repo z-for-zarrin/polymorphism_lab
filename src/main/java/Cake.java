@@ -12,4 +12,13 @@ public abstract class Cake implements IBake{
         return this.name + " has finished baking!";
     }
 
+    public abstract String displayBaseFlavour();
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String getBaseFlavour() {
+        return this.baseFlavour;
+    }
 }

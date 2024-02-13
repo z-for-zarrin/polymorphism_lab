@@ -25,8 +25,12 @@ public class SandwichCakeTest {
     }
 
     @Test
-    public void canBake(){
+    public void canBake() {
         assertThat(sandwichCake.bake()).isEqualTo("Victoria Sponge has finished baking!");
     }
 
+    @Test
+    public void canDisplayBaseFlavour() {
+        assertThat(sandwichCake.displayBaseFlavour()).isEqualTo("Victoria Sponge cake is made with vanilla cake");
+    }
 }
