@@ -21,9 +21,10 @@ public class BakeryTest {
     @Test
     public void canAddCake() {
         Cake cake = new Cupcake("Chocolate Fudge Cupcake", "chocolate");
+        Pastry pastry = new Pastry("Croissant");
         bakery.addBakedGood(cake);
-        assertThat(bakery.countStock()).isEqualTo(1);
+        bakery.addBakedGood(pastry);
+        assertThat(bakery.countStock()).isEqualTo(2);
     }
-
 
 }
