@@ -2,18 +2,18 @@ import java.util.ArrayList;
 
 public class Bakery {
 
-    private ArrayList<Cake> cakes;
+    private ArrayList<IBake> stock;
 
     public Bakery() {
-        cakes = new ArrayList<>();
+        stock = new ArrayList<>();
     }
 
-    public int countCakes() {
-        return this.cakes.size();
+    public int countStock() {
+        return this.stock.size();
     }
 
-    public void addCake(Cake cake) {
-        this.cakes.add(cake);
+    public void addBakeGood(Cake cake) {
+        this.stock.add(cake);
     }
 
 }
