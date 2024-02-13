@@ -16,4 +16,15 @@ public class Bakery {
         this.stock.add(bakedGood);
     }
 
+    public void sell(IBake item) {
+        this.stock.remove(item);
+    }
+
+    //overloads previous sell() method
+    public void sell(ArrayList<IBake> items) {
+        for(IBake item : items) {
+            this.stock.remove(item);
+        }
+    }
+
 }
