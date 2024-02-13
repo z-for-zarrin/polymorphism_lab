@@ -14,15 +14,15 @@ public class BakeryTest {
 
     @Test
     public void canCountCakes() {
-        assertThat(bakery.countCakes()).isEqualTo(0);
+        assertThat(bakery.countStock()).isEqualTo(0);
 
     }
 
     @Test
     public void canAddCake() {
         Cake cake = new Cupcake("Chocolate Fudge Cupcake", "chocolate");
-        bakery.addCake(cake);
-        assertThat(bakery.countCakes()).isEqualTo(1);
+        bakery.addBakedGood(cake);
+        assertThat(bakery.countStock()).isEqualTo(1);
     }
 
 

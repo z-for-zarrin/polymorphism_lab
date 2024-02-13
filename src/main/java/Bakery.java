@@ -12,7 +12,7 @@ public class Bakery {
         return this.stock.size();
     }
 
-    public void addBakeGood(Cake cake) {
+    public void addBakedGood(Cake cake) {
         this.stock.add(cake);
     }
 
