@@ -18,4 +18,9 @@ public class CupcakeTest {
         assertThat(cupcake.getToppings().contains("cream cheese frosting")).isEqualTo(true);
     }
 
+    @Test
+    public void canBake(){
+        assertThat(cupcake.bake()).isEqualTo("Red velvet has finished baking!");
+    }
+
 }

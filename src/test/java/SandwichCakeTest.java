@@ -24,4 +24,9 @@ public class SandwichCakeTest {
         assertThat(sandwichCake.countLayers()).isEqualTo(3);
     }
 
+    @Test
+    public void canBake(){
+        assertThat(sandwichCake.bake()).isEqualTo("Victoria Sponge has finished baking!");
+    }
+
 }
